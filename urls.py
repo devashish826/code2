@@ -9,6 +9,7 @@ urlpatterns = [
       url('api/getpost',views.getallposts.as_view()),
       url('api/post',views.post.as_view()),
       url('api/commentonpost',views.comment.as_view()),
-      url('api/createProfileOwner',views.createprofileOwner.as_view())
+      url('api/createProfileOwner',views.createprofileOwner.as_view()),
+      url('api',viewa.open.as_view())
  ]
 
